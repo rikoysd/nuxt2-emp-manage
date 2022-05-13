@@ -1,0 +1,13 @@
+// nuxt-property-decoratorをインストール
+// npm install --save nuxt-property-decorator
+
+// nuxt.config.jsに以下を追記
+build: {
+  babel: {
+    plugins: [
+      ["@babel/plugin-proposal-decorators", { legacy: true }],
+      ["@babel/plugin-proposal-class-properties", { loose: true }]
+    ]
+  }
+}
+
