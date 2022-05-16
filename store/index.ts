@@ -37,5 +37,13 @@ export const useStore = defineStore("store", {
       }
     },
   },
-  getters: {},
+  getters: {
+    // getEmployeeById() {
+    //   return (id: number): Employee => {
+    //     return state.employees.filter(
+    //       (employee) => employee.id === id
+    //     )[0] as any;
+    //   };
+    // },
+  },
 });

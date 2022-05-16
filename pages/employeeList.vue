@@ -12,7 +12,11 @@
         </thead>
         <tbody>
           <tr v-for="employee of employees" v-bind:key="employee.id">
-            <td>{{ employee.name }}</td>
+            <td>
+              <nuxt-link :to="`/employee/${employee.id}`">{{
+                employee.name
+              }}</nuxt-link>
+            </td>
             <td>{{ employee.hireDate }}</td>
             <td>{{ employee.dependentsCount }}人</td>
           </tr>
