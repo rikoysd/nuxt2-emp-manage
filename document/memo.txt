@@ -1,4 +1,4 @@
-// nuxt-property-decoratorをインストール
+[ nuxt-property-decoratorをインストール ]
 // npm install --save nuxt-property-decorator
 
 // nuxt.config.jsに以下を追記
