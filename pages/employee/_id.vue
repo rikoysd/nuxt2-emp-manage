@@ -91,7 +91,7 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import { useStore } from "~/store";
+import { useStore } from "~/store/store";
 import { Employee } from "~/types/employee";
 @Component
 export default class XXXComponent extends Vue {

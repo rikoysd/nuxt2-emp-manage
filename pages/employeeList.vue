@@ -28,7 +28,7 @@
 
 <script lang="ts">
 import { Component, Vue } from "nuxt-property-decorator";
-import { useStore } from "@/store/index";
+import { useStore } from "~/store/store";
 import { Employee } from "~/types/employee";
 @Component
 export default class XXXComponent extends Vue {
