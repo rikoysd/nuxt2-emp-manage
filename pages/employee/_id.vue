@@ -118,6 +118,7 @@ export default class XXXComponent extends Vue {
     this.store.getEmployeeList();
 
     // 従業員Idを取得
+    // this.$route.paramsはオブジェクトで返ってくるため、プロパティの指定が必要
     this.employeeId = Number(this.$route.params.id);
 
     // 従業員情報の取得
